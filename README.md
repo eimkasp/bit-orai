@@ -3,6 +3,9 @@
 Projekto paleidimas:
 `ng serve`
 
+Naujas komponentas sukuriamas angular CLI pagalba:
+`ng generate component weather`
+
 
 ## Naudingos nuorodos
 
@@ -12,6 +15,10 @@ https://ng-bootstrap.github.io/#/home `ng add @ng-bootstrap/ng-bootstrap`
 Angular Material  
 
 https://material.angular.io/
+
+Angular Components Dokumentacija
+https://angular.io/guide/component-overview
+
 
 
 

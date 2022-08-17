@@ -9,17 +9,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   /* Aprašomi komponento kintamieji */
   title = 'bit-orai';
-  count = 0;
   city = 'Vilnius';
 
   /* ši funkcija suveikia, kiekviena kartą užsikrovus komponentui */
   ngOnInit() {
-    this.count++;
-    console.log(this.count);
     console.log('ngOnInit');
-  }
-
-  increment() {
-    this.count++;
   }
 }

@@ -1,0 +1,16 @@
+<div class="mb-3">
+  <!-- Click event listener (išviečiama funkcija) -->
+  <button (click)="increment()" class="btn btn-primary">Mygtukas</button>
+</div>
+
+<div>
+  <!-- Click event listener (atliekame operacija su komponento kintamuoju) -->
+  <button (click)="count = count + 1" class="btn btn-primary">Mygtukas</button>
+</div>
+
+<div>
+  <!-- Angular naudoja Two-Way Data Binding todėl pakeitus kintamojo reikšmę,
+  nauja reikšmė atvaizduojama automatiškai
+  -->
+  Button was clicked: {{ count }} times
+</div>
