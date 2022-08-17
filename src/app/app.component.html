@@ -1,9 +1,28 @@
 <div class="container">
-  <h1>
-    City: {{ city }}
+  <h1 class="text-center mb-3">
+    Orų prognozė
   </h1>
 
-  <app-weather></app-weather>
+  <div class="row">
+    <div class="col-4">
+        <!-- Angular pass data to
+          component https://angular.io/guide/component-interaction
+
+          Papildomas pavyzdys:
+          https://angular-training-guide.rangle.io/components/app_structure_with_components/passing_data_into_components
+
+        -->
+        <app-weather city="Vilnius"></app-weather>
+    </div>
+
+    <div class="col-4">
+        <app-weather city="Kaunas"></app-weather>
+    </div>
+
+    <div class="col-4">
+      <app-weather city="Klaipėda"></app-weather>
+    </div>
+  </div>
 
   <app-counter></app-counter>
 

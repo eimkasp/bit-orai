@@ -9,6 +9,9 @@ Naujas komponentas sukuriamas angular CLI pagalba:
 Angular HTTP klientas:
 https://angular.io/guide/http
 
+Papildomi praktiniai pavyzdžiai:
+https://www.telerik.com/blogs/angular-basics-how-to-use-httpclient
+
 ## Naudingos nuorodos
 
 Angular Boostrap
@@ -24,6 +27,9 @@ https://angular.io/guide/component-overview
 Typescript basics: https://www.youtube.com/watch?v=d56mG7DezGs
 
 Typescript in 100 Seconds: https://www.youtube.com/watch?v=zQnBQ4tB3ZA
+
+Angular Services:
+https://angular.io/guide/architecture-services
 
 
 
