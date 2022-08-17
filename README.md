@@ -4,7 +4,10 @@ Projekto paleidimas:
 `ng serve`
 
 
+## Naudingos nuorodos
 
+Angular Boostrap
+https://ng-bootstrap.github.io/#/home `ng add @ng-bootstrap/ng-bootstrap`
 
 
 
