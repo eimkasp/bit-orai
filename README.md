@@ -6,6 +6,8 @@ Projekto paleidimas:
 Naujas komponentas sukuriamas angular CLI pagalba:
 `ng generate component weather`
 
+Angular HTTP klientas:
+https://angular.io/guide/http
 
 ## Naudingos nuorodos
 
@@ -18,6 +20,11 @@ https://material.angular.io/
 
 Angular Components Dokumentacija
 https://angular.io/guide/component-overview
+
+Typescript basics: https://www.youtube.com/watch?v=d56mG7DezGs
+
+Typescript in 100 Seconds: https://www.youtube.com/watch?v=zQnBQ4tB3ZA
+
 
 
 

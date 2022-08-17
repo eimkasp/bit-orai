@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+// Importuojam Angular HTTP kliento modulį
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +18,9 @@ import { CounterComponent } from './counter/counter.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    // Importuojame HTTP kliento modulį
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
