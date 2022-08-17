@@ -3,7 +3,8 @@
   <button (click)="increment()" class="btn btn-primary">Mygtukas</button>
 </div>
 
-<div>
+<!-- Dar vienas ngIf Panaudojimas -->
+<div *ngIf="count > 10">
   <!-- Click event listener (atliekame operacija su komponento kintamuoju) -->
   <button (click)="count = count + 1" class="btn btn-primary">Mygtukas</button>
 </div>

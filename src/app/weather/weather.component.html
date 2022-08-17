@@ -1,3 +1,16 @@
-<h1>
-  Weather coming soon
-</h1>
+<!-- *ngIf atvaizduoja arba paslepia elementa pagal tam tikra salyga -->
+<div class="card mb-3" *ngIf="weatherData">
+  <div class="card-header">
+    {{ weatherData.name }}
+  </div>
+  <div class="card-body">
+    <ul>
+      <li>
+        Current Temperature: {{ weatherData.main.temp }}
+      </li>
+    </ul>
+  </div>
+  <div class="card-footer">
+
+  </div>
+</div>
